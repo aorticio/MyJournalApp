@@ -65,10 +65,10 @@ class _HomePageState extends State<HomePage> {
           Icons.add,
         ),
       ),
-      backgroundColor: Color.fromARGB(255, 162, 227, 212),
+      backgroundColor: Color.fromARGB(255, 160, 236, 243),
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: Colors.cyan[200],
+        backgroundColor: Color.fromARGB(255, 89, 207, 93),
         title: const Text(
           'My Journal',
           style: TextStyle(
@@ -85,7 +85,7 @@ class _HomePageState extends State<HomePage> {
                 child: Container(
                     padding: EdgeInsets.all(25),
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 114, 208, 218),
+                      color: Color.fromARGB(255, 218, 194, 114),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: ListTile(
@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                 child: Container(
                     padding: EdgeInsets.all(25),
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 114, 208, 218),
+                      color: Color.fromARGB(255, 117, 218, 114),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: ListTile(
@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> {
                 child: Container(
                     padding: EdgeInsets.all(25),
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 114, 208, 218),
+                      color: Color.fromARGB(255, 211, 148, 232),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: ListTile(
